@@ -26,7 +26,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/mocha": "^8.2.0",
-    "@types/node": "^14.11.2",
+    "@types/node": "^14.18.27",
     "gts": "^3.0.3",
     "mocha": "^8.2.1",
     "nyc": "^15.1.0",
@@ -35,7 +35,10 @@
     "ts-node": "^9.1.1",
     "typescript": "^4.0.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@jlguenego/lexer": "^1.5.0",
+    "console-grid": "^2.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jlguenego/lexer.git"

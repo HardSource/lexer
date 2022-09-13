@@ -1,0 +1,11 @@
+maior = 0
+num = int(input('Digite um numero: '))
+if num == 0:
+    print('Final da leitura')
+elif num !=0:
+       while num !=0:
+        if num > maior:
+           maior = num
+        num = int(input('Digite o numero ou digite zero para sair: '))
+
+print('Maior número digitado: ', maior)
